@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import WeatherInput from "../WeatherInput"
 import WeatherMap from "../WeatherMap"
-// import Ab from "../Ab"
+
 
 
 const AllRoute = () => {
@@ -9,10 +9,7 @@ const AllRoute = () => {
     <div>
         <Routes>
         <Route path="/" element={<WeatherInput />}/>
-        <Route path="/map" element={<WeatherMap/>} />
-        {/* <Route path="/map" element={<Ab/>}/> */}
-       
-     
+        <Route path="/map" element={<WeatherMap/>} />   
       </Routes>
     </div>
   )

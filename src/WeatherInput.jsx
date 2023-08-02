@@ -1,45 +1,62 @@
-import { useContext, useEffect } from "react"
-import { useState } from "react"
-import WeatherMap from "./WeatherMap"
+import { useContext } from "react";
 import { MyContext } from "./App";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import "./style/weatherInput.css";
 
 const WeatherInput = () => {
-    const { city,searchVal, setSearchVal} = useContext(MyContext);
-    // let [city,setCity]=useState(null)
-    // const [searchVal,setSearchVal]=useState("")
-    // console.log(searchVal)
-    // console.log("city",city)
+  const { setSearchVal } = useContext(MyContext);
+  const { getLocation, setTrueVal } = useContext(MyContext);
 
+  const navigate = useNavigate();
+  function handleKeyPress(e) {
+    if (e.key === "Enter") {
+      // alert("ok")
+      navigate("/map");
+    }
+  }
 
-    // useEffect(()=>{
-    //     fetchData()
-    // },[searchVal])
+  let getLocationn = () => {
+    getLocation();
+    setTrueVal(true);
+  };
 
-    // const fetchData=async()=>{
-    //     let data=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchVal}&appid=d519434cae900ae9d596764e4a09d3ce`)
-    //     let json=await data.json()
-    //     console.log(json)
-    //     setCity(json)
-
-    // }
-    
+  let handleBtn = () => {
+    navigate("/map");
+  };
   return (
-    <div>
-        <div >
-        <h2>Weather App</h2>
-            <input type="text" placeholder="Enter City Name" 
-            // value={city} 
-            onChange={(e)=>setSearchVal(e.target.value)} />
+    <div id="mainInput">
+      <div>
+        <h2 style={{ color: "white" }}>Weather App</h2>
+        <div>
+          <input
+            className="inputBoxWaterInput"
+            type="text"
+            placeholder="Enter City Name"
+            // value={city}
+            onChange={(e) => setSearchVal(e.target.value)}
+            onKeyDown={(e) => handleKeyPress(e)}
+          />
         </div>
-        <button><Link to={"/map"}>search</Link></button>
-        {/* <WeatherMap city={city} val={searchVal}/> */}
 
+        <button onClick={handleBtn} className="weaterBtn">
+          search
+        </button>
+        <div className="getDriveloc">
+          <div className="div1"></div>
 
-       
-       
+          <p style={{ color: "white" }}>or</p>
+          <div className="div2"></div>
+        </div>
+        <div>
+          <Link to="/map">
+            <button onClick={getLocationn} className="getDriveBtn">
+              Get drive Location
+            </button>
+          </Link>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default WeatherInput
+export default WeatherInput;
