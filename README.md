@@ -6,11 +6,16 @@ Deployed Link: https://realtimeweaterapp.vercel.app/
  React | context-api | react-router-dom | CSS 
 
 <h2>Features</h2>
--High-performant applications using the Realtime OpenWeatherMap API
+- High-performant applications using the Realtime OpenWeatherMap API
 <br/>
--Users can easily search for the weather of any city worldwide. Simply type the city name in the search bar, and WeatherApp will display the current weather conditions, including temperature, humidity, and more.
+<br/>
+- Users can easily search for the weather of any city worldwide. Simply type the city name in the search bar, and WeatherApp will display the current weather conditions, including temperature, humidity, and more.
+<br/>
 <br/>
 -Optimise Search using Debouncing 
+<br/>
+<br/>
+- Current Location Weather: Click the "Get Current Location" button to fetch the weather details based on your current geolocation.
 <h2>Installation</h2>
 <br/>
 Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
