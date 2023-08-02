@@ -25,6 +25,8 @@ Install dependencies: npm install
 Start the development server: npm run dev
 <h2>Demo</h2>
 <img width="960" alt="image" src="https://github.com/Moumita7/WeatherApp/assets/97180521/694aa277-fedc-4f4e-a5ea-e78897c4962d">
+![Alt text](image-1.png)
+![Alt text](image-2.png)
 
 
 
