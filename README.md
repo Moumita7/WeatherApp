@@ -5,4 +5,10 @@ WeatherApp is a user-friendly application that provides real-time weather inform
 Deployed Link: https://realtimeweaterapp.vercel.app/
 <br/><br/>
 Teck Stack : React | context-api | react-router-dom | CSS 
+Installation
+Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
+
+Clone the repository: https://github.com/ignitinsharma/weather_app.git
+Install dependencies: npm install
+Start the development server: npm run dev
 
