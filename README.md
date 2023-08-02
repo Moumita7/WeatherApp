@@ -15,9 +15,8 @@ Deployed Link: https://realtimeweaterapp.vercel.app/
 -Optimise Search using Debouncing 
 <br/>
 <br/>
-- Current Location Weather: Click the "Get Current Location" button to fetch the weather details based on your current geolocation.
+- Current Location Weather: Click the "Get Current Location" button to fetch the weather details based on your current location.
 <h2>Installation</h2>
-<br/>
 Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
 
 Clone the repository: https://github.com/Moumita7/WeatherApp.git
