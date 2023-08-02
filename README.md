@@ -5,5 +5,5 @@ WeatherApp is a user-friendly application that provides real-time weather inform
 Deployed Link: https://realtimeweaterapp.vercel.app/
 <br/><br/>
 <h2>Teck Stack : <h2/>
-React | context-api | react-router-dom | CSS 
+<h3>React | context-api | react-router-dom | CSS </h3>
 
