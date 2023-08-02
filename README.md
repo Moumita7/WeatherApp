@@ -16,6 +16,9 @@ Deployed Link: https://realtimeweaterapp.vercel.app/
 <br/>
 <br/>
 - Current Location Weather: Click the "Get Current Location" button to fetch the weather details based on your current location.
+<br/>
+<br/>
+-  changing weather images involves a dynamic system that monitors real-time weather data, selects the appropriate images based on the current weather condition
 <h2>Installation</h2>
 Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
 Clone the repository: https://github.com/Moumita7/WeatherApp.git
