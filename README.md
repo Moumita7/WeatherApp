@@ -18,11 +18,12 @@ Deployed Link: https://realtimeweaterapp.vercel.app/
 - Current Location Weather: Click the "Get Current Location" button to fetch the weather details based on your current location.
 <h2>Installation</h2>
 Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
-
 Clone the repository: https://github.com/Moumita7/WeatherApp.git
 <br/>
 Install dependencies: npm install
 <br/>
 Start the development server: npm run dev
+<h2>Demo</h2>
+
 
 
