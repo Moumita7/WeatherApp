@@ -4,10 +4,11 @@ WeatherApp is a user-friendly application that provides real-time weather inform
 <br/>
 Deployed Link: https://realtimeweaterapp.vercel.app/
 <br/><br/>
-Teck Stack : React | context-api | react-router-dom | CSS 
+<h2>Teck Stack </h2>
+ React | context-api | react-router-dom | CSS 
 <br/>
 <br/>
-Installation
+<h2>Installation</h2>
 <br/>
 Provide instructions on how to install and set up your project locally. Include any prerequisites or dependencies required. For example:
 
