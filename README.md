@@ -7,7 +7,9 @@ Deployed Link: https://realtimeweaterapp.vercel.app/
 
 <h2>Features</h2>
 -High-performant applications using the Realtime OpenWeatherMap API
+<br/>
 -Users can easily search for the weather of any city worldwide. Simply type the city name in the search bar, and WeatherApp will display the current weather conditions, including temperature, humidity, and more.
+<br/>
 -Optimise Search using Debouncing 
 <h2>Installation</h2>
 <br/>
