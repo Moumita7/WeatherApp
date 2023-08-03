@@ -4,6 +4,8 @@ import NotFound from "./NotFound";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import { CiLocationOn,  } from "react-icons/ci";
+import { WiHumidity  } from "react-icons/wi";
+
 
 
 import "./style/weatherMap.css";
@@ -49,10 +51,10 @@ const WeatherMap = () => {
               }}
             >
               <AiOutlineArrowLeft
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer",color:"#42ADFD" }}
                 onClick={() => home()}
               />
-              <h2 style={{ color: "white" }}>Weather App</h2>
+              <h2 style={{ color:"#42ADFD"}}>Weather App</h2>
             </div>
 
             <div
@@ -62,12 +64,12 @@ const WeatherMap = () => {
                 alignItems: "center",
               }}
             >
-              {/* <img style={{width:"30%"}} src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="" /> */}
-              <img
+              <img style={{width:"40%"}} src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="" />
+              {/* <img
                 style={{ width: "50%" }}
                 src={`http://openweathermap.org/img/wn/${city?.weather[0]?.icon}@2x.png`}
                 alt=""
-              />
+              /> */}
               <div
                 style={{
                   display: "flex",
@@ -110,7 +112,7 @@ const WeatherMap = () => {
   
                 <img
                   style={{ width: "30px" }}
-                  src="https://www.svgrepo.com/show/236207/thermometer-temperature.svg"
+                  src="https://www.svgrepo.com/download/179594/thermometer-temperature.svg"
                   alt=""
                 />
                 {/* <CiTempHigh/> */}
@@ -137,10 +139,10 @@ const WeatherMap = () => {
                 }}
               >
                 <div className="humi">
-                  {/* <WiHumidity /> */}
+                  {/* <WiHumidity style={{color:"#42ADFD",width:"10px",height:"20px"}}/> */}
                   <img
-                    style={{ width: "25px" }}
-                    src="https://cdn-icons-png.flaticon.com/512/727/727790.png"
+                    style={{ width: "25px",color:"blue" }}
+                    src="https://cdn-icons-png.flaticon.com/512/728/728093.png"
                     alt=""
                   />
                 </div>
@@ -179,10 +181,10 @@ const WeatherMap = () => {
               }}
             >
               <AiOutlineArrowLeft
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer",color:'#42ADFD' }}
                 onClick={() => home()}
               />
-              <h2 style={{ color: "white" }}>Weather App</h2>
+              <h2 style={{ color: "#42ADFD" }}>Weather App</h2>
             </div>
 
             <div
@@ -192,12 +194,12 @@ const WeatherMap = () => {
                 alignItems: "center",
               }}
             >
-              {/* <img style={{width:"30%"}} src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="" /> */}
-              <img
+              <img style={{width:"40%"}} src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="" />
+              {/* <img
                 style={{ width: "50%" }}
                 src={`http://openweathermap.org/img/wn/${currLoc?.weather[0]?.icon}@2x.png`}
                 alt=""
-              />
+              /> */}
               <div
                 style={{
                   display: "flex",
@@ -241,7 +243,7 @@ const WeatherMap = () => {
   
                 <img
                   style={{ width: "30px" }}
-                  src="https://www.svgrepo.com/show/236207/thermometer-temperature.svg"
+                  src="https://www.svgrepo.com/download/179594/thermometer-temperature.svg"
                   alt=""
                 />
                 {/* <CiTempHigh/> */}
@@ -263,14 +265,15 @@ const WeatherMap = () => {
                   alignItems: "center",
                   justifyContent: "center",
                   gap: "5px",
-                  padding:"10px"
+                  paddingBottom:"10px"
+
                 }}
               >
                 <div className="humi">
-                  {/* <WiHumidity /> */}
+                  {/* <WiHumidity style={{color:"#42ADFD",width:"10px",height:"20px"}}/> */}
                   <img
-                    style={{ width: "25px" }}
-                    src="https://cdn-icons-png.flaticon.com/512/727/727790.png"
+                    style={{ width: "25px",color:"blue" }}
+                    src="https://cdn-icons-png.flaticon.com/512/728/728093.png"
                     alt=""
                   />
                 </div>

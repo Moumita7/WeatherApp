@@ -14,10 +14,10 @@ const NotFound = () => {
   return (
     <div id="mainInput">
     <div >
-    <div style={{display:"flex",alignItems:"center",gap:"10px",color:"white"}}>
+    <div style={{display:"flex",alignItems:"center",gap:"10px",color:"#42ADFD"}}>
 
 <AiOutlineArrowLeft style={{cursor:'pointer'}} onClick={()=>home()}/>
-    <h2 style={{color:"white"}}>City  Name Not Found</h2>
+    <h2 style={{color:"#42ADFD"}}>City  Name Not Found</h2>
 </div>
   
     <img style={{width:"50%"}} src="https://cdn-icons-png.flaticon.com/512/1548/1548682.png" alt="" />

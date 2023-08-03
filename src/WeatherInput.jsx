@@ -20,13 +20,11 @@ const WeatherInput = () => {
     setTrueVal(true);
   };
 
-  let handleBtn = () => {
-    navigate("/map");
-  };
+
   return (
     <div id="mainInput">
       <div>
-        <h2 style={{ color: "white" }}>Weather App</h2>
+        <h2 style={{ color: "#42ADFD" }}>Weather App</h2>
         <div>
           <input
             className="inputBoxWaterInput"
@@ -38,18 +36,16 @@ const WeatherInput = () => {
           />
         </div>
 
-        <button onClick={handleBtn} className="weaterBtn">
-          search
-        </button>
+     
         <div className="getDriveloc">
           <div className="div1"></div>
 
-          <p style={{ color: "white" }}>or</p>
+          <p style={{ color: "black" }}>or</p>
           <div className="div2"></div>
         </div>
         <div>
           <Link to="/map">
-            <button onClick={getLocationn} className="getDriveBtn">
+            <button style={{backgroundColor:"#42ADFD",color:"whitesmoke"}} onClick={getLocationn} className="getDriveBtn">
               Get drive Location
             </button>
           </Link>
