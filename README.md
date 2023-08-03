@@ -32,6 +32,9 @@ Start the development server: npm run dev
 
 <img width="960" alt="image" src="https://github.com/Moumita7/WeatherApp/assets/97180521/02020233-8791-4359-92e8-d4add3cebc4a">
 
+<img width="960" alt="image" src="https://github.com/Moumita7/WeatherApp/assets/97180521/37f2cffc-17f4-40e2-b04a-2377e6145067">
+
+
 
 
 
